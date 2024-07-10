@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #565d55;
+  color: #ff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0;
+}
+
+.music-player {
+  text-align: center;
+  background-color: #357775;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.progress-container {
+  margin-top: 20px;
+}
+
+.volume-container {
+  margin-top: 20px;
+}
+
+#progress {
+  width: 100%;
+}
+
+#volume {
+  width: 100%;
+}
+h1{
+  color: #ff0;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20%;
+  position: flex;
+  z-index: 1;
+  bottom: 100%;
+  left: 10%;
+  right: 10%;
+}
+
+#app-name {
+  font-size: 2em;
+  color: #ff0;
+  margin: 10%;
+  text-align: center;
+  font-weight: bold;
+
+  
+  
+}
+
+.album-art-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#album-art {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls button {
+  background-color: #ff0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  background-color: #cc0;
+}
+
+.progress-container,
+.volume-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#progress,
+#volume {
+  width: 60%;
+  margin: 0 10px;
+}
+
+#current-time,
+#duration {
+  margin: 0 10px;
+}
+
+.playlist {
+  margin-top: 20px;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  background-color: #222;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.playlist li.selected {
+  background-color: #444;
+}
+
+.playlist li.playing {
+  background-color: #666;
+}
+
+.playlist li.playing:hover {
+  background-color: #555;
+}
+
+.playlist li:hover {
+  background-color: #333;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #app-name {
+    font-size: 1.5em;
+  }
+
+  .album-art-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  #album-art {
+    width: 100%;
+    height: 100%;
+  }
+
+  .controls button {
+    padding: 5px 10px;
+    margin: 2px;
+  }
+
+  .progress-container,
+  .volume-container {
+    margin-top: 10px;
+  }
+
+  #progress,
+  #volume {
+    width: 40%;
+    margin: 0 5px;
+  }
+
+  #current-time,
+  #duration {
+    margin: 0 5px;
+  }
+
+  .playlist li {
+    padding: 5px;
+    margin: 2px 0;
+  }
+
+  .playlist li:hover {
+    background-color: #333;
+  }
+
+  .playlist {
+    margin-top: 10px;
+  }
+
+  .playlist ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .playlist li {
+    background-color: #222;
+    padding: 5px;
+    margin: 2px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+}
+
+
+
+
+
+
+  
