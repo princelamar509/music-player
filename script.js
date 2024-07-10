@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   const playlist  = [
-    { title: 'Welcome to Hell,Kerry', src: 'songs/Kerry_-_Welcome_to_hell.mp3', image: 'https://usercontent.jamendo.com/?type=album&id=568513&width=300&trackid=2176441' },
+    { title: 'Welcome to Hell,Kerry', src: 'songs/KERRY_-_Welcome_to_hell.mp3', image: 'https://usercontent.jamendo.com/?type=album&id=568513&width=300&trackid=2176441' },
     { title: 'Alone - Color Out,Unknown', src: 'songs/Alone_-_Color_Out.mp3' ,image: 'https://usercontent.jamendo.com/?type=album&id=262036&width=300&trackid=1847557'},
     { title: 'Leeona - DO I', src: 'songs/LEEONA_-_LEEONA_-_DO_I.mp3' ,image: 'https://usercontent.jamendo.com/?type=album&id=550243&width=300&trackid=2135375'},
     { title: 'The Deep Anitek ', src: 'songs/The_Deep_-_Anitek.mp3' ,image: 'https://usercontent.jamendo.com/?type=album&id=280815&width=300&trackid=1861493'},
